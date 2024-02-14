@@ -201,8 +201,12 @@ body {
 .reset {
     text-align: center;
 }
-
-.reset button {
+.enviar{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.reset button, .enviar button{
     font-weight: 800;
     font-style: normal;
     transition: all 0.1s linear;
@@ -222,10 +226,16 @@ body {
     outline: none;
 }
 
-.reset button:hover {
+.reset button:hover{
     background-color: #FF6863;
     cursor: pointer;
-    color: white;
+    color: rgba(255, 255, 255, 0.87);
+}
+.enviar button:hover{
+    background-color: rgb(42, 155, 42);
+    cursor: pointer;
+    color: #ffffff;
+    border: 2px solid black;
 }
 
 .valentine {
